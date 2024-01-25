@@ -1,0 +1,913 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Maxim.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Maxim.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\admin\\css\\maps\\style.css.map",
+      "PackagePath": "staticwebassets\\admin\\css\\maps\\style.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\admin\\css\\style.css",
+      "PackagePath": "staticwebassets\\admin\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\admin\\documentation\\.DS_Store",
+      "PackagePath": "staticwebassets\\admin\\documentation\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\admin\\documentation\\documentation.html",
+      "PackagePath": "staticwebassets\\admin\\documentation\\documentation.html"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\admin\\fonts\\.DS_Store",
+      "PackagePath": "staticwebassets\\admin\\fonts\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\admin\\fonts\\Roboto\\.DS_Store",
+      "PackagePath": "staticwebassets\\admin\\fonts\\Roboto\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\admin\\fonts\\Roboto\\Roboto-Black.eot",
+      "PackagePath": "staticwebassets\\admin\\fonts\\Roboto\\Roboto-Black.eot"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\admin\\fonts\\Roboto\\Roboto-Black.ttf",
+      "PackagePath": "staticwebassets\\admin\\fonts\\Roboto\\Roboto-Black.ttf"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\admin\\fonts\\Roboto\\Roboto-Black.woff",
+      "PackagePath": "staticwebassets\\admin\\fonts\\Roboto\\Roboto-Black.woff"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\admin\\fonts\\Roboto\\Roboto-Black.woff2",
+      "PackagePath": "staticwebassets\\admin\\fonts\\Roboto\\Roboto-Black.woff2"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\admin\\fonts\\Roboto\\Roboto-Bold.eot",
+      "PackagePath": "staticwebassets\\admin\\fonts\\Roboto\\Roboto-Bold.eot"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\admin\\fonts\\Roboto\\Roboto-Bold.ttf",
+      "PackagePath": "staticwebassets\\admin\\fonts\\Roboto\\Roboto-Bold.ttf"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\admin\\fonts\\Roboto\\Roboto-Bold.woff",
+      "PackagePath": "staticwebassets\\admin\\fonts\\Roboto\\Roboto-Bold.woff"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\admin\\fonts\\Roboto\\Roboto-Bold.woff2",
+      "PackagePath": "staticwebassets\\admin\\fonts\\Roboto\\Roboto-Bold.woff2"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\admin\\fonts\\Roboto\\Roboto-Light.eot",
+      "PackagePath": "staticwebassets\\admin\\fonts\\Roboto\\Roboto-Light.eot"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\admin\\fonts\\Roboto\\Roboto-Light.ttf",
+      "PackagePath": "staticwebassets\\admin\\fonts\\Roboto\\Roboto-Light.ttf"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\admin\\fonts\\Roboto\\Roboto-Light.woff",
+      "PackagePath": "staticwebassets\\admin\\fonts\\Roboto\\Roboto-Light.woff"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\admin\\fonts\\Roboto\\Roboto-Light.woff2",
+      "PackagePath": "staticwebassets\\admin\\fonts\\Roboto\\Roboto-Light.woff2"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\admin\\fonts\\Roboto\\Roboto-Medium.eot",
+      "PackagePath": "staticwebassets\\admin\\fonts\\Roboto\\Roboto-Medium.eot"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\admin\\fonts\\Roboto\\Roboto-Medium.ttf",
+      "PackagePath": "staticwebassets\\admin\\fonts\\Roboto\\Roboto-Medium.ttf"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\admin\\fonts\\Roboto\\Roboto-Medium.woff",
+      "PackagePath": "staticwebassets\\admin\\fonts\\Roboto\\Roboto-Medium.woff"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\admin\\fonts\\Roboto\\Roboto-Medium.woff2",
+      "PackagePath": "staticwebassets\\admin\\fonts\\Roboto\\Roboto-Medium.woff2"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\admin\\fonts\\Roboto\\Roboto-Regular.eot",
+      "PackagePath": "staticwebassets\\admin\\fonts\\Roboto\\Roboto-Regular.eot"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\admin\\fonts\\Roboto\\Roboto-Regular.ttf",
+      "PackagePath": "staticwebassets\\admin\\fonts\\Roboto\\Roboto-Regular.ttf"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\admin\\fonts\\Roboto\\Roboto-Regular.woff",
+      "PackagePath": "staticwebassets\\admin\\fonts\\Roboto\\Roboto-Regular.woff"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\admin\\fonts\\Roboto\\Roboto-Regular.woff2",
+      "PackagePath": "staticwebassets\\admin\\fonts\\Roboto\\Roboto-Regular.woff2"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\admin\\images\\.DS_Store",
+      "PackagePath": "staticwebassets\\admin\\images\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\admin\\images\\auth\\.DS_Store",
+      "PackagePath": "staticwebassets\\admin\\images\\auth\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\admin\\images\\auth\\lockscreen-bg.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\auth\\lockscreen-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\admin\\images\\auth\\login-bg.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\auth\\login-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\admin\\images\\auth\\register-bg.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\auth\\register-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\admin\\images\\faces\\.DS_Store",
+      "PackagePath": "staticwebassets\\admin\\images\\faces\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\admin\\images\\faces\\face1.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\faces\\face1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\admin\\images\\faces\\face10.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\faces\\face10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\admin\\images\\faces\\face11.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\faces\\face11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\admin\\images\\faces\\face12.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\faces\\face12.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\admin\\images\\faces\\face13.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\faces\\face13.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\admin\\images\\faces\\face14.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\faces\\face14.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\admin\\images\\faces\\face15.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\faces\\face15.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\admin\\images\\faces\\face16.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\faces\\face16.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\admin\\images\\faces\\face17.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\faces\\face17.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\admin\\images\\faces\\face18.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\faces\\face18.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\admin\\images\\faces\\face19.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\faces\\face19.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\admin\\images\\faces\\face2.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\faces\\face2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\admin\\images\\faces\\face20.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\faces\\face20.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\admin\\images\\faces\\face21.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\faces\\face21.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\admin\\images\\faces\\face22.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\faces\\face22.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\admin\\images\\faces\\face23.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\faces\\face23.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\admin\\images\\faces\\face24.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\faces\\face24.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\admin\\images\\faces\\face25.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\faces\\face25.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\admin\\images\\faces\\face26.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\faces\\face26.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\admin\\images\\faces\\face27.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\faces\\face27.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\admin\\images\\faces\\face3.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\faces\\face3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\admin\\images\\faces\\face4.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\faces\\face4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\admin\\images\\faces\\face5.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\faces\\face5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\admin\\images\\faces\\face6.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\faces\\face6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\admin\\images\\faces\\face7.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\faces\\face7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\admin\\images\\faces\\face8.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\faces\\face8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\admin\\images\\faces\\face9.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\faces\\face9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\admin\\images\\favicon.ico",
+      "PackagePath": "staticwebassets\\admin\\images\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\admin\\images\\favicon.png",
+      "PackagePath": "staticwebassets\\admin\\images\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\admin\\images\\logo-mini.svg",
+      "PackagePath": "staticwebassets\\admin\\images\\logo-mini.svg"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\admin\\images\\logo.svg",
+      "PackagePath": "staticwebassets\\admin\\images\\logo.svg"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\admin\\js\\.DS_Store",
+      "PackagePath": "staticwebassets\\admin\\js\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\admin\\js\\Chart.min.js",
+      "PackagePath": "staticwebassets\\admin\\js\\Chart.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\admin\\js\\chart.js",
+      "PackagePath": "staticwebassets\\admin\\js\\chart.js"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\admin\\js\\dashboard.js",
+      "PackagePath": "staticwebassets\\admin\\js\\dashboard.js"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\admin\\js\\data-table.js",
+      "PackagePath": "staticwebassets\\admin\\js\\data-table.js"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\admin\\js\\dataTables.bootstrap4.js",
+      "PackagePath": "staticwebassets\\admin\\js\\dataTables.bootstrap4.js"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\admin\\js\\documentation.js",
+      "PackagePath": "staticwebassets\\admin\\js\\documentation.js"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\admin\\js\\file-upload.js",
+      "PackagePath": "staticwebassets\\admin\\js\\file-upload.js"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\admin\\js\\hoverable-collapse.js",
+      "PackagePath": "staticwebassets\\admin\\js\\hoverable-collapse.js"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\admin\\js\\jquery.cookie.js",
+      "PackagePath": "staticwebassets\\admin\\js\\jquery.cookie.js"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\admin\\js\\jquery.dataTables.js",
+      "PackagePath": "staticwebassets\\admin\\js\\jquery.dataTables.js"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\admin\\js\\off-canvas.js",
+      "PackagePath": "staticwebassets\\admin\\js\\off-canvas.js"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\admin\\js\\tabs.js",
+      "PackagePath": "staticwebassets\\admin\\js\\tabs.js"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\admin\\js\\template.js",
+      "PackagePath": "staticwebassets\\admin\\js\\template.js"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\admin\\pages\\.DS_Store",
+      "PackagePath": "staticwebassets\\admin\\pages\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\admin\\pages\\charts\\.DS_Store",
+      "PackagePath": "staticwebassets\\admin\\pages\\charts\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\admin\\pages\\charts\\chartjs.html",
+      "PackagePath": "staticwebassets\\admin\\pages\\charts\\chartjs.html"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\admin\\pages\\forms\\.DS_Store",
+      "PackagePath": "staticwebassets\\admin\\pages\\forms\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\admin\\pages\\forms\\basic_elements.html",
+      "PackagePath": "staticwebassets\\admin\\pages\\forms\\basic_elements.html"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\admin\\pages\\icons\\.DS_Store",
+      "PackagePath": "staticwebassets\\admin\\pages\\icons\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\admin\\pages\\icons\\mdi.html",
+      "PackagePath": "staticwebassets\\admin\\pages\\icons\\mdi.html"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\admin\\pages\\samples\\.DS_Store",
+      "PackagePath": "staticwebassets\\admin\\pages\\samples\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\admin\\pages\\samples\\lock-screen.html",
+      "PackagePath": "staticwebassets\\admin\\pages\\samples\\lock-screen.html"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\admin\\pages\\samples\\login-2.html",
+      "PackagePath": "staticwebassets\\admin\\pages\\samples\\login-2.html"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\admin\\pages\\samples\\login.html",
+      "PackagePath": "staticwebassets\\admin\\pages\\samples\\login.html"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\admin\\pages\\samples\\register-2.html",
+      "PackagePath": "staticwebassets\\admin\\pages\\samples\\register-2.html"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\admin\\pages\\samples\\register.html",
+      "PackagePath": "staticwebassets\\admin\\pages\\samples\\register.html"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\admin\\pages\\tables\\.DS_Store",
+      "PackagePath": "staticwebassets\\admin\\pages\\tables\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\admin\\pages\\tables\\basic-table.html",
+      "PackagePath": "staticwebassets\\admin\\pages\\tables\\basic-table.html"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\admin\\pages\\ui-features\\.DS_Store",
+      "PackagePath": "staticwebassets\\admin\\pages\\ui-features\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\admin\\pages\\ui-features\\buttons.html",
+      "PackagePath": "staticwebassets\\admin\\pages\\ui-features\\buttons.html"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\admin\\pages\\ui-features\\typography.html",
+      "PackagePath": "staticwebassets\\admin\\pages\\ui-features\\typography.html"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\admin\\partials\\_footer.html",
+      "PackagePath": "staticwebassets\\admin\\partials\\_footer.html"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\admin\\partials\\_navbar.html",
+      "PackagePath": "staticwebassets\\admin\\partials\\_navbar.html"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\admin\\partials\\_settings-panel.html",
+      "PackagePath": "staticwebassets\\admin\\partials\\_settings-panel.html"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\admin\\partials\\_sidebar.html",
+      "PackagePath": "staticwebassets\\admin\\partials\\_sidebar.html"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\admin\\scss\\.DS_Store",
+      "PackagePath": "staticwebassets\\admin\\scss\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\admin\\scss\\_background.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\_background.scss"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\admin\\scss\\_demo.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\_demo.scss"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\admin\\scss\\_fonts.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\_fonts.scss"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\admin\\scss\\_footer.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\_footer.scss"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\admin\\scss\\_functions.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\_functions.scss"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\admin\\scss\\_layouts.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\_layouts.scss"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\admin\\scss\\_misc.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\_misc.scss"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\admin\\scss\\_navbar.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\_navbar.scss"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\admin\\scss\\_reset.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\_reset.scss"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\admin\\scss\\_sidebar.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\_sidebar.scss"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\admin\\scss\\_typography.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\_typography.scss"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\admin\\scss\\_utilities.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\_utilities.scss"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\admin\\scss\\_variables.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\_variables.scss"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\admin\\scss\\_vertical-wrapper.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\_vertical-wrapper.scss"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\admin\\scss\\components\\.DS_Store",
+      "PackagePath": "staticwebassets\\admin\\scss\\components\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\admin\\scss\\components\\_badges.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\components\\_badges.scss"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\admin\\scss\\components\\_bootstrap-progress.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\components\\_bootstrap-progress.scss"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\admin\\scss\\components\\_buttons.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\components\\_buttons.scss"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\admin\\scss\\components\\_cards.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\components\\_cards.scss"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\admin\\scss\\components\\_checkbox-radio.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\components\\_checkbox-radio.scss"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\admin\\scss\\components\\_dropdown.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\components\\_dropdown.scss"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\admin\\scss\\components\\_forms.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\components\\_forms.scss"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\admin\\scss\\components\\_icons.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\components\\_icons.scss"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\admin\\scss\\components\\_lists.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\components\\_lists.scss"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\admin\\scss\\components\\_tables.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\components\\_tables.scss"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\admin\\scss\\components\\plugin-overrides\\_data-tables.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\components\\plugin-overrides\\_data-tables.scss"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\admin\\scss\\landing-screens\\_auth.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\landing-screens\\_auth.scss"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\admin\\scss\\mixins\\.DS_Store",
+      "PackagePath": "staticwebassets\\admin\\scss\\mixins\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\admin\\scss\\mixins\\_animation.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\mixins\\_animation.scss"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\admin\\scss\\mixins\\_badges.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\mixins\\_badges.scss"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\admin\\scss\\mixins\\_blockqoute.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\mixins\\_blockqoute.scss"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\admin\\scss\\mixins\\_buttons.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\mixins\\_buttons.scss"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\admin\\scss\\mixins\\_cards.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\mixins\\_cards.scss"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\admin\\scss\\mixins\\_misc.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\mixins\\_misc.scss"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\admin\\scss\\style.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\style.scss"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\admin\\vendors\\.DS_Store",
+      "PackagePath": "staticwebassets\\admin\\vendors\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\admin\\vendors\\base\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\admin\\vendors\\base\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\admin\\vendors\\base\\vendor.bundle.base.css",
+      "PackagePath": "staticwebassets\\admin\\vendors\\base\\vendor.bundle.base.css"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\admin\\vendors\\base\\vendor.bundle.base.js",
+      "PackagePath": "staticwebassets\\admin\\vendors\\base\\vendor.bundle.base.js"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\admin\\vendors\\chart.js\\Chart.min.js",
+      "PackagePath": "staticwebassets\\admin\\vendors\\chart.js\\Chart.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\admin\\vendors\\datatables.net-bs4\\dataTables.bootstrap4.css",
+      "PackagePath": "staticwebassets\\admin\\vendors\\datatables.net-bs4\\dataTables.bootstrap4.css"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\admin\\vendors\\datatables.net-bs4\\dataTables.bootstrap4.js",
+      "PackagePath": "staticwebassets\\admin\\vendors\\datatables.net-bs4\\dataTables.bootstrap4.js"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\admin\\vendors\\datatables.net\\jquery.dataTables.js",
+      "PackagePath": "staticwebassets\\admin\\vendors\\datatables.net\\jquery.dataTables.js"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\admin\\vendors\\mdi\\css\\materialdesignicons.min.css",
+      "PackagePath": "staticwebassets\\admin\\vendors\\mdi\\css\\materialdesignicons.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\admin\\vendors\\mdi\\css\\materialdesignicons.min.css.map",
+      "PackagePath": "staticwebassets\\admin\\vendors\\mdi\\css\\materialdesignicons.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\admin\\vendors\\mdi\\fonts\\materialdesignicons-webfont.eot",
+      "PackagePath": "staticwebassets\\admin\\vendors\\mdi\\fonts\\materialdesignicons-webfont.eot"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\admin\\vendors\\mdi\\fonts\\materialdesignicons-webfont.ttf",
+      "PackagePath": "staticwebassets\\admin\\vendors\\mdi\\fonts\\materialdesignicons-webfont.ttf"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\admin\\vendors\\mdi\\fonts\\materialdesignicons-webfont.woff",
+      "PackagePath": "staticwebassets\\admin\\vendors\\mdi\\fonts\\materialdesignicons-webfont.woff"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\admin\\vendors\\mdi\\fonts\\materialdesignicons-webfont.woff2",
+      "PackagePath": "staticwebassets\\admin\\vendors\\mdi\\fonts\\materialdesignicons-webfont.woff2"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\assets\\color\\default.css",
+      "PackagePath": "staticwebassets\\assets\\color\\default.css"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\assets\\contactform\\Readme.txt",
+      "PackagePath": "staticwebassets\\assets\\contactform\\Readme.txt"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\assets\\contactform\\contactform.js",
+      "PackagePath": "staticwebassets\\assets\\contactform\\contactform.js"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\assets\\css\\animate.css",
+      "PackagePath": "staticwebassets\\assets\\css\\animate.css"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\assets\\css\\bootstrap-responsive.css",
+      "PackagePath": "staticwebassets\\assets\\css\\bootstrap-responsive.css"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\assets\\css\\bootstrap-responsive.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\bootstrap-responsive.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\assets\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\assets\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\assets\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\assets\\css\\flexslider.css",
+      "PackagePath": "staticwebassets\\assets\\css\\flexslider.css"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\assets\\css\\font-awesome-ie7.css",
+      "PackagePath": "staticwebassets\\assets\\css\\font-awesome-ie7.css"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\assets\\css\\font-awesome.css",
+      "PackagePath": "staticwebassets\\assets\\css\\font-awesome.css"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\assets\\css\\overwrite.css",
+      "PackagePath": "staticwebassets\\assets\\css\\overwrite.css"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\assets\\css\\prettyPhoto.css",
+      "PackagePath": "staticwebassets\\assets\\css\\prettyPhoto.css"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\assets\\css\\style.css",
+      "PackagePath": "staticwebassets\\assets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\assets\\font\\FontAwesome.otf",
+      "PackagePath": "staticwebassets\\assets\\font\\FontAwesome.otf"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\assets\\font\\fontawesome-webfont.eot",
+      "PackagePath": "staticwebassets\\assets\\font\\fontawesome-webfont.eot"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\assets\\font\\fontawesome-webfont.svg",
+      "PackagePath": "staticwebassets\\assets\\font\\fontawesome-webfont.svg"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\assets\\font\\fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets\\assets\\font\\fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\assets\\font\\fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets\\assets\\font\\fontawesome-webfont.woff"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\assets\\img\\bg\\bg-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\bg\\bg-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\assets\\img\\bg\\bg-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\bg\\bg-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\assets\\img\\bg\\bg-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\bg\\bg-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\assets\\img\\bg_direction_nav.png",
+      "PackagePath": "staticwebassets\\assets\\img\\bg_direction_nav.png"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\assets\\img\\blog\\img1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\blog\\img1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\assets\\img\\blog\\img2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\blog\\img2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\assets\\img\\blog\\img3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\blog\\img3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\assets\\img\\blog\\img4.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\blog\\img4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\assets\\img\\favicon.ico",
+      "PackagePath": "staticwebassets\\assets\\img\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\assets\\img\\glyphicons-halflings.png",
+      "PackagePath": "staticwebassets\\assets\\img\\glyphicons-halflings.png"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\assets\\img\\icons\\basket.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\basket.png"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\assets\\img\\icons\\camera.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\camera.png"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\assets\\img\\icons\\creativity.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\creativity.png"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\assets\\img\\icons\\lab.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\lab.png"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\assets\\img\\icons\\laptop.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\laptop.png"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\assets\\img\\logo-image.png",
+      "PackagePath": "staticwebassets\\assets\\img\\logo-image.png"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\assets\\img\\prettyPhoto\\default\\default_thumb.png",
+      "PackagePath": "staticwebassets\\assets\\img\\prettyPhoto\\default\\default_thumb.png"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\assets\\img\\prettyPhoto\\default\\loader.gif",
+      "PackagePath": "staticwebassets\\assets\\img\\prettyPhoto\\default\\loader.gif"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\assets\\img\\prettyPhoto\\default\\sprite.png",
+      "PackagePath": "staticwebassets\\assets\\img\\prettyPhoto\\default\\sprite.png"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\assets\\img\\prettyPhoto\\default\\sprite_next.png",
+      "PackagePath": "staticwebassets\\assets\\img\\prettyPhoto\\default\\sprite_next.png"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\assets\\img\\prettyPhoto\\default\\sprite_prev.png",
+      "PackagePath": "staticwebassets\\assets\\img\\prettyPhoto\\default\\sprite_prev.png"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\assets\\img\\prettyPhoto\\default\\sprite_x.png",
+      "PackagePath": "staticwebassets\\assets\\img\\prettyPhoto\\default\\sprite_x.png"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\assets\\img\\prettyPhoto\\default\\sprite_y.png",
+      "PackagePath": "staticwebassets\\assets\\img\\prettyPhoto\\default\\sprite_y.png"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\assets\\img\\team\\img-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\team\\img-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\assets\\img\\team\\img-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\team\\img-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\assets\\img\\team\\img-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\team\\img-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\assets\\img\\team\\img-4.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\team\\img-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\assets\\img\\team\\img-5.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\team\\img-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\assets\\img\\works\\1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\works\\1.png"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\assets\\img\\works\\10.png",
+      "PackagePath": "staticwebassets\\assets\\img\\works\\10.png"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\assets\\img\\works\\2.png",
+      "PackagePath": "staticwebassets\\assets\\img\\works\\2.png"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\assets\\img\\works\\3.png",
+      "PackagePath": "staticwebassets\\assets\\img\\works\\3.png"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\assets\\img\\works\\4.png",
+      "PackagePath": "staticwebassets\\assets\\img\\works\\4.png"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\assets\\img\\works\\5.png",
+      "PackagePath": "staticwebassets\\assets\\img\\works\\5.png"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\assets\\img\\works\\6.png",
+      "PackagePath": "staticwebassets\\assets\\img\\works\\6.png"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\assets\\img\\works\\7.png",
+      "PackagePath": "staticwebassets\\assets\\img\\works\\7.png"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\assets\\img\\works\\8.png",
+      "PackagePath": "staticwebassets\\assets\\img\\works\\8.png"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\assets\\img\\works\\9.png",
+      "PackagePath": "staticwebassets\\assets\\img\\works\\9.png"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\assets\\img\\works\\big.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\works\\big.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\assets\\js\\animate.js",
+      "PackagePath": "staticwebassets\\assets\\js\\animate.js"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\assets\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\assets\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\assets\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\assets\\js\\custom.js",
+      "PackagePath": "staticwebassets\\assets\\js\\custom.js"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\assets\\js\\inview.js",
+      "PackagePath": "staticwebassets\\assets\\js\\inview.js"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\assets\\js\\isotope.js",
+      "PackagePath": "staticwebassets\\assets\\js\\isotope.js"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\assets\\js\\jquery-hover-effect.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery-hover-effect.js"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\assets\\js\\jquery.flexslider.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery.flexslider.js"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\assets\\js\\jquery.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\assets\\js\\jquery.localScroll.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery.localScroll.js"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\assets\\js\\jquery.nav.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery.nav.js"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\assets\\js\\jquery.prettyPhoto.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery.prettyPhoto.js"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\assets\\js\\jquery.scrollTo.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery.scrollTo.js"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\assets\\tweet.php",
+      "PackagePath": "staticwebassets\\assets\\tweet.php"
+    },
+    {
+      "Id": "C:\\Users\\ca.r214.12\\Desktop\\Maxim\\Maxim\\wwwroot\\assets\\tweet\\index.php",
+      "PackagePath": "staticwebassets\\assets\\tweet\\index.php"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.Maxim.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.Maxim.props",
+      "PackagePath": "build\\Maxim.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.Maxim.props",
+      "PackagePath": "buildMultiTargeting\\Maxim.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.Maxim.props",
+      "PackagePath": "buildTransitive\\Maxim.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

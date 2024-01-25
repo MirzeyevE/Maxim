@@ -1,0 +1,401 @@
+﻿
+@model HomeVM
+	<!-- end spacer section -->
+	<!-- section: team -->
+	<section id="about" class="section">
+		<div class="container">
+			<h4>Who We Are</h4>
+			<div class="row">
+				<div class="span4 offset1">
+					<div>
+						<h2>We live with <strong>creativity</strong></h2>
+						<p>
+							Li Europan lingues es membres del sam familie. Lor separat existentie es un myth. Por scientie, musica, sport etc, litot Europa usa li sam vocabular. Li lingues differe solmen in li grammatica, li pronunciation e li plu commun vocabules. Omnicos directe
+							al desirabilite de un nov lingua franca: On refusa continuar payar custosi traductores.
+						</p>
+					</div>
+				</div>
+				<div class="span6">
+					<div class="aligncenter">
+						<img src="~/assets/img/icons/creativity.png" alt="" />
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="span2 offset1 flyIn">
+					<div class="people">
+						<img class="team-thumb img-circle" src="~/assets/img/team/img-1.jpg" alt="" />
+						<h3>John Doe</h3>
+						<p>
+							Art director
+						</p>
+					</div>
+				</div>
+				<div class="span2 flyIn">
+					<div class="people">
+						<img class="team-thumb img-circle" src="~/assets/img/team/img-2.jpg" alt="" />
+						<h3>Mike Doe</h3>
+						<p>
+							Web developer
+						</p>
+					</div>
+				</div>
+				<div class="span2 flyIn">
+					<div class="people">
+						<img class="team-thumb img-circle" src="~/assets/img/team/img-3.jpg" alt="" />
+						<h3>Neil Doe</h3>
+						<p>
+							Web designer
+						</p>
+					</div>
+				</div>
+				<div class="span2 flyIn">
+					<div class="people">
+						<img class="team-thumb img-circle" src="~/assets/img/team/img-4.jpg" alt="" />
+						<h3>Mark Joe</h3>
+						<p>
+							UI designer
+						</p>
+					</div>
+				</div>
+				<div class="span2 flyIn">
+					<div class="people">
+						<img class="team-thumb img-circle" src="~/assets/img/team/img-5.jpg" alt="" />
+						<h3>Stephen B</h3>
+						<p>
+							Digital imaging
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- /.container -->
+	</section>
+	<!-- end section: team -->
+	<!-- section: services -->
+	<section id="services" class="section orange">
+		<div class="container">
+			<h4>Services</h4>
+			<!-- Four columns -->
+			<div class="row">
+			@foreach(var item in Model.Service)
+			{
+				<div class="span3 animated-fast flyIn">
+					<div class="service-box">
+						<img src="~/assets/img/icons/@item.Image" alt="" />
+						<h2>@item.Name</h2>
+						<p>
+							@item.Description
+						</p>
+					</div>
+				</div>
+			}
+
+			</div>
+		</div>
+	</section>
+	<!-- end section: services -->
+	<!-- section: works -->
+	<section id="works" class="section">
+		<div class="container clearfix">
+			<h4>Our Works</h4>
+			<!-- portfolio filter -->
+			<div class="row">
+				<div id="filters" class="span12">
+					<ul class="clearfix">
+						<li>
+							<a href="#" data-filter="*" class="active">
+								<h5>All</h5>
+							</a>
+						</li>
+						<li>
+							<a href="#" data-filter=".web">
+								<h5>Web</h5>
+							</a>
+						</li>
+						<li>
+							<a href="#" data-filter=".print">
+								<h5>Print</h5>
+							</a>
+						</li>
+						<li>
+							<a href="#" data-filter=".design">
+								<h5>Design</h5>
+							</a>
+						</li>
+						<li>
+							<a href="#" data-filter=".photography">
+								<h5>Photography</h5>
+							</a>
+						</li>
+					</ul>
+				</div>
+				<!-- END PORTFOLIO FILTERING -->
+			</div>
+			<div class="row">
+				<div class="span12">
+					<div id="portfolio-wrap">
+						<!-- portfolio item -->
+						<div class="portfolio-item grid print photography">
+							<div class="portfolio">
+								<a href="~/assets/img/works/big.jpg" data-pretty="prettyPhoto[gallery1]" class="portfolio-image">
+									<img src="~/assets/img/works/1.png" alt="" />
+									<div class="portfolio-overlay">
+										<div class="thumb-info">
+											<h5>Portfolio name</h5>
+											<i class="icon-plus icon-2x"></i>
+										</div>
+									</div>
+								</a>
+							</div>
+						</div>
+						<!-- end portfolio item -->
+						<!-- portfolio item -->
+						<div class="portfolio-item grid print design web">
+							<div class="portfolio">
+								<a href="~/assets/img/works/big.jpg" data-pretty="prettyPhoto[gallery1]" class="portfolio-image">
+									<img src="~/assets/img/works/2.png" alt="" />
+									<div class="portfolio-overlay">
+										<div class="thumb-info">
+											<h5>Portfolio name</h5>
+											<i class="icon-plus icon-2x"></i>
+										</div>
+									</div>
+								</a>
+							</div>
+						</div>
+						<!-- end portfolio item -->
+						<!-- portfolio item -->
+						<div class="portfolio-item grid print design">
+							<div class="portfolio">
+								<a href="~/assets/img/works/big.jpg" data-pretty="prettyPhoto[gallery1]" class="portfolio-image">
+									<img src="~/assets/img/works/3.png" alt="" />
+									<div class="portfolio-overlay">
+										<div class="thumb-info">
+											<h5>Portfolio name</h5>
+											<i class="icon-plus icon-2x"></i>
+										</div>
+									</div>
+								</a>
+							</div>
+						</div>
+						<!-- end portfolio item -->
+						<!-- portfolio item -->
+						<div class="portfolio-item grid photography web">
+							<div class="portfolio">
+								<a href="~/assets/img/works/big.jpg" data-pretty="prettyPhoto[gallery1]" class="portfolio-image">
+									<img src="~/assets/img/works/4.png" alt="" />
+									<div class="portfolio-overlay">
+										<div class="thumb-info">
+											<h5>Portfolio name</h5>
+											<i class="icon-plus icon-2x"></i>
+										</div>
+									</div>
+								</a>
+							</div>
+						</div>
+						<!-- end portfolio item -->
+						<!-- portfolio item -->
+						<div class="portfolio-item grid photography web">
+							<div class="portfolio">
+								<a href="~/assets/img/works/big.jpg" data-pretty="prettyPhoto[gallery1]" class="portfolio-image">
+									<img src="~/assets/img/works/5.png" alt="" />
+									<div class="portfolio-overlay">
+										<div class="thumb-info">
+											<h5>Portfolio name</h5>
+											<i class="icon-plus icon-2x"></i>
+										</div>
+									</div>
+								</a>
+							</div>
+						</div>
+						<!-- end portfolio item -->
+						<!-- portfolio item -->
+						<div class="portfolio-item grid photography web">
+							<div class="portfolio">
+								<a href="~/assets/img/works/big.jpg" data-pretty="prettyPhoto[gallery1]" class="portfolio-image">
+									<img src="~/assets/img/works/6.png" alt="" />
+									<div class="portfolio-overlay">
+										<div class="thumb-info">
+											<h5>Portfolio name</h5>
+											<i class="icon-plus icon-2x"></i>
+										</div>
+									</div>
+								</a>
+							</div>
+						</div>
+						<!-- end portfolio item -->
+						<!-- portfolio item -->
+						<div class="portfolio-item grid photography web">
+							<div class="portfolio">
+								<a href="~/assets/img/works/big.jpg" data-pretty="prettyPhoto[gallery1]" class="portfolio-image">
+									<img src="~/assets/img/works/7.png" alt="" />
+									<div class="portfolio-overlay">
+										<div class="thumb-info">
+											<h5>Portfolio name</h5>
+											<i class="icon-plus icon-2x"></i>
+										</div>
+									</div>
+								</a>
+							</div>
+						</div>
+						<!-- end portfolio item -->
+						<!-- portfolio item -->
+						<div class="portfolio-item grid photography">
+							<div class="portfolio">
+								<a href="~/assets/img/works/big.jpg" data-pretty="prettyPhoto[gallery1]" class="portfolio-image">
+									<img src="~/assets/img/works/8.png" alt="" />
+									<div class="portfolio-overlay">
+										<div class="thumb-info">
+											<h5>Portfolio name</h5>
+											<i class="icon-plus icon-2x"></i>
+										</div>
+									</div>
+								</a>
+							</div>
+						</div>
+						<!-- end portfolio item -->
+						<!-- portfolio item -->
+						<div class="portfolio-item grid photography web">
+							<div class="portfolio">
+								<a href="~/assets/img/works/big.jpg" data-pretty="prettyPhoto[gallery1]" class="portfolio-image">
+									<img src="~/assets/img/works/9.png" alt="" />
+									<div class="portfolio-overlay">
+										<div class="thumb-info">
+											<h5>Portfolio name</h5>
+											<i class="icon-plus icon-2x"></i>
+										</div>
+									</div>
+								</a>
+							</div>
+						</div>
+						<!-- end portfolio item -->
+						<!-- portfolio item -->
+						<div class="portfolio-item grid design web">
+							<div class="portfolio">
+								<a href="~/assets/img/works/big.jpg" data-pretty="prettyPhoto[gallery1]" class="portfolio-image">
+									<img src="~/assets/img/works/10.png" alt="" />
+									<div class="portfolio-overlay">
+										<div class="thumb-info">
+											<h5>Portfolio name</h5>
+											<i class="icon-plus icon-2x"></i>
+										</div>
+									</div>
+								</a>
+							</div>
+						</div>
+						<!-- end portfolio item -->
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- spacer section -->
+	<section class="spacer bg3">
+		<div class="container">
+			<div class="row">
+				<div class="span12 aligncenter flyLeft">
+					<blockquote class="large">
+						We are an established and trusted web agency with a reputation for commitment and high integrity
+					</blockquote>
+				</div>
+				<div class="span12 aligncenter flyRight">
+					<i class="icon-rocket icon-10x"></i>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- end spacer section -->
+	<!-- section: blog -->
+	<section id="blog" class="section">
+		<div class="container">
+			<h4>Our Blog</h4>
+			<!-- Three columns -->
+			<div class="row">
+				<div class="span3">
+					<div class="home-post">
+						<div class="post-image">
+							<img class="max-img" src="~/assets/img/blog/img1.jpg" alt="" />
+						</div>
+						<div class="post-meta">
+							<i class="icon-file icon-2x"></i>
+							<span class="date">June 19, 2013</span>
+							<span class="tags"><a href="#">Design</a>, <a href="#">Blog</a></span>
+						</div>
+						<div class="entry-content">
+							<h5><strong><a href="#">New design trends</a></strong></h5>
+							<p>
+								Lorem Ipsum is simply dummy text of the printing and typesetting industry. &hellip;
+							</p>
+							<a href="#" class="more">Read more</a>
+						</div>
+					</div>
+				</div>
+				<div class="span3">
+					<div class="home-post">
+						<div class="post-image">
+							<img class="max-img" src="~/assets/img/blog/img2.jpg" alt="" />
+						</div>
+						<div class="post-meta">
+							<i class="icon-file icon-2x"></i>
+							<span class="date">June 19, 2013</span>
+							<span class="tags"><a href="#">Design</a>, <a href="#">News</a></span>
+						</div>
+						<div class="entry-content">
+							<h5><strong><a href="#">Retro is great</a></strong></h5>
+							<p>
+								Lorem Ipsum is simply dummy text of the printing and typesetting industry. &hellip;
+							</p>
+							<a href="#" class="more">Read more</a>
+						</div>
+					</div>
+				</div>
+				<div class="span3">
+					<div class="home-post">
+						<div class="post-image">
+							<img class="max-img" src="~/assets/img/blog/img3.jpg" alt="" />
+						</div>
+						<div class="post-meta">
+							<i class="icon-file icon-2x"></i>
+							<span class="date">June 22, 2013</span>
+							<span class="tags"><a href="#">Design</a>, <a href="#">Tips</a></span>
+						</div>
+						<div class="entry-content">
+							<h5><strong><a href="#">Isometric mockup</a></strong></h5>
+							<p>
+								Lorem Ipsum is simply dummy text of the printing and typesetting industry. &hellip;
+							</p>
+							<a href="#" class="more">Read more</a>
+						</div>
+					</div>
+				</div>
+				<div class="span3">
+					<div class="home-post">
+						<div class="post-image">
+							<img class="max-img" src="~/assets/img/blog/img4.jpg" alt="" />
+						</div>
+						<div class="post-meta">
+							<i class="icon-file icon-2x"></i>
+							<span class="date">June 27, 2013</span>
+							<span class="tags"><a href="#">News</a>, <a href="#">Tutorial</a></span>
+						</div>
+						<div class="entry-content">
+							<h5><strong><a href="#">Free icon set</a></strong></h5>
+							<p>
+								Lorem Ipsum is simply dummy text of the printing and typesetting industry. &hellip;
+							</p>
+							<a href="#" class="more">Read more</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="blankdivider30"></div>
+			<div class="aligncenter">
+				<a href="#" class="btn btn-large btn-theme">More blog post</a>
+			</div>
+		</div>
+	</section>
+
+	<!-- end spacer section -->
+	<!-- section: contact -->
+	
