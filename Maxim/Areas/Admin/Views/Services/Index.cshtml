@@ -38,7 +38,7 @@
                                     @count
                                 </td>
                                 <td>
-                                    <img src="~/assets/img/icons/@item.Image" alt="" />
+                                    <img style="width:150px;height:150px;" src="~/assets/img/icons/@item.Image" alt="" />
                                 </td>
                                 <td>
                                     @item.Name
@@ -47,8 +47,8 @@
                                     @item.Description
                                 </td>
                                 <td>
-                                    <a asp-action="Update" asp-controller="Service" asp-route-id="@item.Id" class="btn btn-warning">Update</a>
-                                    <a asp-action="Delete" asp-controller="Service" asp-route-id="@item.Id" class="btn btn-danger">Delete</a>
+                                    <a asp-action="Update" asp-controller="Services" asp-route-id="@item.Id" class="btn btn-warning">Update</a>
+                                    <a asp-action="Delete" asp-controller="Services" asp-route-id="@item.Id" class="btn btn-danger">Delete</a>
                                 </td>
                             </tr>
                         }

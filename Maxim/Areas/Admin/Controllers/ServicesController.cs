@@ -48,8 +48,51 @@ namespace Maxim.Areas.Admin.Controllers
             await _context.Services.AddAsync(services);
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
-
-
         }
-	}
+        public async Task<IActionResult> Update(int id)
+        {
+            if (id <= 0) return BadRequest();
+            Service exist = await _context.Services.FirstOrDefaultAsync(s => s.Id == id);
+            if (exist == null) return NotFound();
+            return View(exist);
+        }
+        [HttpPost]
+        public async Task<IActionResult> Update(int id, Service serv)
+        {
+            if (!ModelState.IsValid) return View(serv);
+            Service exist = await _context.Services.FirstOrDefaultAsync(s => s.Id == id);
+            if (exist == null) return NotFound();
+            if (serv.Photo is not null)
+            {
+                if (!serv.Photo.ValidateType("image/"))
+                {
+                    ModelState.AddModelError("Photo", "File tipi uyqun deyil");
+                    return View(serv);
+                }
+                if (!serv.Photo.ValidateSize(2 * 1024))
+                {
+                    ModelState.AddModelError("Photo", "File size uyqun deyil");
+                    return View(serv);
+                }
+                string filename = await serv.Photo.CreateAsync(_env.WebRootPath, "assets", "img", "icons");
+                exist.Image.DeleteFile(_env.WebRootPath, "assets", "img", "icons");
+                exist.Image = filename;
+            }
+            exist.Name = serv.Name;
+            exist.Description = serv.Description;
+            await _context.SaveChangesAsync();
+            return RedirectToAction(nameof(Index));
+        }
+        public async Task<IActionResult> Delete(int id)
+        {
+            if (id <= 0) return BadRequest();
+            Service exist = await _context.Services.FirstOrDefaultAsync(s => s.Id == id);
+            if (exist == null) return NotFound();
+            exist.Image.DeleteFile(_env.WebRootPath, "assets", "img", "icons");
+            _context.Remove(exist);
+            await _context.SaveChangesAsync();
+            return RedirectToAction(nameof(Index));
+        }
+
+    }
 }
